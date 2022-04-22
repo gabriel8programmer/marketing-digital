@@ -1,0 +1,73 @@
+
+/*formatação para o body*/
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+/*formatação para a interface da pagina*/
+main#interface {
+    width: 832px;
+    height:680px;
+    margin:0 auto;
+    background-color: rgba(255, 255, 255, .95);
+}
+
+/*formatação para o header*/
+header {
+    padding-bottom: 10px;
+}
+
+header h1 {
+    padding-top: 10px;
+    color:rgba(65, 102, 150, 0.884);
+    text-align: center;
+    font-weight:bolder;
+    text-shadow: 1px 1px 1px rgba(36, 71, 117, 0.95);
+}
+
+header h1 span {
+    color: #777;
+    font-weight:normal;
+    text-shadow: none;
+}
+
+/*formatação para o corpo*/
+section#corpo {
+    background-color: rgba(36, 71, 117, 0.95);
+    color: white;
+}
+
+/*formatação para o conteudo principal*/
+article#principal {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+/*formatação para o conteudo principal*/
+div#conteudo {
+    margin-top:20px;
+    width:45%;
+    text-align: center;
+}
+
+div#conteudo p {
+    margin-bottom: 0px;
+}
+
+/*formatação da imagem*/
+img#ebook {
+    width:280px;
+    height: 400px;
+    margin:0 auto;
+    margin-top: 0px;
+}
+
+/*formatação do formulário*/
+form {
+    width: 40%;
+}
+
