@@ -43,19 +43,26 @@ section#corpo {
 /*formatação para o conteudo principal*/
 article#principal {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
+    margin:auto;
+    width: 700px;
 }
 
 /*formatação para o conteudo principal*/
 div#conteudo {
-    margin-top:20px;
-    width:45%;
+    width: 300px;
     text-align: center;
+    margin-right: 20px;
+}
+
+div#conteudo h1 {
+    font-size: 15pt;
 }
 
 div#conteudo p {
     margin-bottom: 0px;
+    font-size: 10pt;
 }
 
 /*formatação da imagem*/
@@ -63,11 +70,54 @@ img#ebook {
     width:280px;
     height: 400px;
     margin:0 auto;
-    margin-top: 0px;
 }
 
 /*formatação do formulário*/
 form {
-    width: 40%;
+    width: 250px;
+    background-color: rgba(25, 53, 90, 0.95);
+    padding:20px;
+    border-radius: 15px;
+    height: 450px;
+    margin-top:20px;
 }
 
+form h2 {
+    font-size: 11pt;
+}
+
+form h3 {
+    font-size: 9pt;
+    font-weight: normal;
+    text-align: justify;
+}
+
+form p {
+    font-size: 10pt;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+form h6 {
+    font-weight: normal;
+    text-align: justify;
+}
+
+input {
+    width: calc(100% - 10px);
+}
+
+#recebeMaterial {
+    padding:10px;
+    color:white;
+    background-color: rgb(192, 37, 37);
+    border:rgba(0,0,0,.5);
+    margin-top: 10px;
+    width: 100%;
+    transition: 1s;
+}
+
+#recebeMaterial:hover {
+    background-color: #800;
+}
