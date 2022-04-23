@@ -10,7 +10,6 @@ body {
 /*formatação para a interface da pagina*/
 main#interface {
     width: 832px;
-    height:680px;
     margin:0 auto;
     background-color: rgba(255, 255, 255, .95);
 }
@@ -120,4 +119,53 @@ input {
 
 #recebeMaterial:hover {
     background-color: #800;
+}
+
+/*formatação para o conteudo conplementar*/
+aside#complementar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+div.img-circular{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    padding:0px;
+    margin:0 auto;
+    border-radius: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: rgb(134, 203, 235);
+}
+
+div#img1 {
+    background-image: url("../_images/foguete.png");
+}
+
+div#img2 {
+    background-image: url("../_images/calendario.png");
+}
+
+div#img3 {
+    background-image: url("../_images/carteira.png");
+}
+
+div.parte-conteudo {
+    width:20%;
+    padding:10px;
+}
+
+div.parte-conteudo h1 {
+    color:gray;
+    font-size: 12pt;
+    text-align: center;
+}
+
+div.parte-conteudo p {
+    font-size: 8pt;
+    text-align: center;
 }
